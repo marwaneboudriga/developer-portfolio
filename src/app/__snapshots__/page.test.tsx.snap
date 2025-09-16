@@ -1,0 +1,2094 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page renders homepage unchanged 1`] = `
+<div>
+  <main>
+    <section
+      class="relative min-h-[500px] md:min-h-[740px] mt-16 md:flex md:justify-center md:items-center"
+    >
+      <div
+        class="absolute top-0 left-0 w-full h-full bg-[url('/images/spiral-bg-light.webp')] bg-cover bg-no-repeat bg-fixed [background-position:50%_center] dark:opacity-15"
+      />
+      <div
+        class="relative z-50 grid grid-cols-1 gap-6 md:grid-cols-[3fr_9fr] max-md:pt-20 md:gap-12 px-6"
+      >
+        <div
+          class="overflow-hidden rounded-full size-32 md:size-44 shadow-md"
+          style="opacity: 0; transform: scale(0.9);"
+        >
+          <img
+            alt="MARWANE BOUDRIGA"
+            data-nimg="1"
+            decoding="async"
+            height="640"
+            loading="lazy"
+            src="/_next/image?url=%2Fimages%2Fajeh-emeke.webp&w=1920&q=75"
+            srcset="/_next/image?url=%2Fimages%2Fajeh-emeke.webp&w=640&q=75 1x, /_next/image?url=%2Fimages%2Fajeh-emeke.webp&w=1920&q=75 2x"
+            style="color: transparent;"
+            width="640"
+          />
+        </div>
+        <div
+          class="max-md:grid max-md:[grid-template-areas:'name'_'headline'_'links']"
+          style="opacity: 0;"
+        >
+          <ul
+            class="*:inline-block *:ml-5 [grid-area:links] max-md:mt-3"
+          >
+            <li
+              class="first:ml-0"
+            >
+              <a
+                aria-label="LinkedIn"
+                class="transition-colors duration-300 hover:text-accent"
+                https://www.linkedin.com/in/marwaneboudriga"
+              >
+                <svg
+                  class="size-6"
+                >
+                  <use
+                    xlink:href="/icon-sprite.svg#linked-in"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li
+              class="first:ml-0"
+            >
+              <a
+                aria-label="Github"
+                class="transition-colors duration-300 hover:text-accent"
+                https://github.com/boudrigamarwane"
+              >
+                <svg
+                  class="size-6"
+                >
+                  <use
+                    xlink:href="/icon-sprite.svg#github"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li
+              class="first:ml-0"
+            >
+              <a
+                aria-label="StackOverflow"
+                class="transition-colors duration-300 hover:text-accent"
+                href="https://stackoverflow.com/users/6820220/ajeh-emeke-jnr"
+              >
+                <svg
+                  class="size-6"
+                >
+                  <use
+                    xlink:href="/icon-sprite.svg#stack-overflow"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li
+              class="first:ml-0"
+            >
+              <a
+                aria-label="Email"
+                class="transition-colors duration-300 hover:text-accent"
+                href="mailto:boudrigamarwane@gmail.com"
+              >
+                <svg
+                  class="size-6"
+                >
+                  <use
+                    xlink:href="/icon-sprite.svg#envelope"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <h2
+            class="text-5xl sm:text-6xl md:text-7xl md:mt-6 font-bold leading-relaxed [grid-area:name] highlighted-text"
+          >
+            MARWANE BOUDRIGA
+          </h1>
+          <p
+            class="text-xl mt-6 md:text-2xl [grid-area:headline]"
+          >
+            Full Stack Engineer
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-20"
+      id="about"
+    >
+      <div
+        class="container px-4 mx-auto"
+      >
+        <div
+          class="text-center mb-12 transition-none"
+          style="opacity: 0; transform: translateY(50px);"
+        >
+          <h2
+            class="highlighted-heading text-3xl font-bold mb-4"
+          >
+            About Me
+          </h2>
+          <p
+            class="text-muted-foreground max-w-2xl mx-auto"
+          >
+            I'm a focused and quick-learning software developer with experience building highly efficient and scalable web applications since 2016. A critical thinker with strong analytical and collaboration skills, I have a keen eye for security and maintainability
+          </p>
+        </div>
+        <div
+          class="grid md:grid-cols-3 gap-6 mt-12"
+        >
+          <div
+            class="transition-none"
+            style="opacity: 0; transform: translateY(150px);"
+          >
+            <div
+              class="rounded-xl border bg-card text-card-foreground shadow h-full"
+            >
+              <div
+                class="p-6 pt-6"
+              >
+                <div
+                  class="text-primary mb-4"
+                >
+                  <svg
+                    class="lucide lucide-code-xml h-6 w-6"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 16 4-4-4-4"
+                    />
+                    <path
+                      d="m6 8-4 4 4 4"
+                    />
+                    <path
+                      d="m14.5 4-5 16"
+                    />
+                  </svg>
+                </div>
+                <h3
+                  class="text-xl font-semibold mb-2"
+                >
+                  Frontend Development
+                </h3>
+                <p
+                  class="text-muted-foreground"
+                >
+                  Building cross-browser, cross-platform, responsive and interactive user interfaces using Javascript, Typescript, SCSS and modern CSS frameworks.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="transition-none"
+            style="opacity: 0; transform: translateY(150px);"
+          >
+            <div
+              class="rounded-xl border bg-card text-card-foreground shadow h-full"
+            >
+              <div
+                class="p-6 pt-6"
+              >
+                <div
+                  class="text-primary mb-4"
+                >
+                  <svg
+                    class="lucide lucide-server h-6 w-6"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      height="8"
+                      rx="2"
+                      ry="2"
+                      width="20"
+                      x="2"
+                      y="2"
+                    />
+                    <rect
+                      height="8"
+                      rx="2"
+                      ry="2"
+                      width="20"
+                      x="2"
+                      y="14"
+                    />
+                    <line
+                      x1="6"
+                      x2="6.01"
+                      y1="6"
+                      y2="6"
+                    />
+                    <line
+                      x1="6"
+                      x2="6.01"
+                      y1="18"
+                      y2="18"
+                    />
+                  </svg>
+                </div>
+                <h3
+                  class="text-xl font-semibold mb-2"
+                >
+                  Backend Development
+                </h3>
+                <p
+                  class="text-muted-foreground"
+                >
+                  Creating scalable server-side applications with Node.js (NestJs), PHP (Laravel), serverless functions, and various relational and non-relational databases.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="transition-none"
+            style="opacity: 0; transform: translateY(150px);"
+          >
+            <div
+              class="rounded-xl border bg-card text-card-foreground shadow h-full"
+            >
+              <div
+                class="p-6 pt-6"
+              >
+                <div
+                  class="text-primary mb-4"
+                >
+                  <svg
+                    class="lucide lucide-rocket h-6 w-6"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"
+                    />
+                    <path
+                      d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
+                    />
+                    <path
+                      d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"
+                    />
+                    <path
+                      d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"
+                    />
+                  </svg>
+                </div>
+                <h3
+                  class="text-xl font-semibold mb-2"
+                >
+                  DevOps
+                </h3>
+                <p
+                  class="text-muted-foreground"
+                >
+                  Ensuring scalable and reliable infrastructure through CI/CD pipelines, infrastructure automation, and cloud deployment using modern DevOps tools.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-20"
+      id="skills"
+    >
+      <div
+        class="container px-4 mx-auto"
+      >
+        <div
+          class="text-center mb-12 transition-none"
+          style="opacity: 0; transform: translateY(50px);"
+        >
+          <h2
+            class="highlighted-heading text-3xl font-bold mb-4"
+          >
+            Skills & Technologies
+          </h2>
+          <p
+            class="text-muted-foreground max-w-2xl mx-auto"
+          >
+            I work with a variety of technologies across the full stack, always keeping up with the latest trends and best practices.
+          </p>
+        </div>
+        <div
+          class="transition-none"
+          style="opacity: 0;"
+        >
+          <div
+            class="max-w-3xl mx-auto"
+            data-orientation="horizontal"
+            dir="ltr"
+          >
+            <div
+              aria-orientation="horizontal"
+              class="h-9 items-center justify-center rounded-lg bg-muted p-1 text-muted-foreground grid w-full grid-cols-4"
+              data-orientation="horizontal"
+              role="tablist"
+              style="outline: none;"
+              tabindex="0"
+            >
+              <button
+                aria-controls="radix-:r0:-content-frontend"
+                aria-selected="true"
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow capitalize"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="active"
+                id="radix-:r0:-trigger-frontend"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                frontend
+              </button>
+              <button
+                aria-controls="radix-:r0:-content-backend"
+                aria-selected="false"
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow capitalize"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-:r0:-trigger-backend"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                backend
+              </button>
+              <button
+                aria-controls="radix-:r0:-content-devOps"
+                aria-selected="false"
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow capitalize"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-:r0:-trigger-devOps"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                devOps
+              </button>
+              <button
+                aria-controls="radix-:r0:-content-tools"
+                aria-selected="false"
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow capitalize"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-:r0:-trigger-tools"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                tools
+              </button>
+            </div>
+            <div
+              aria-labelledby="radix-:r0:-trigger-frontend"
+              class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              data-orientation="horizontal"
+              data-state="active"
+              id="radix-:r0:-content-frontend"
+              role="tabpanel"
+              style="animation-duration: 0s;"
+              tabindex="0"
+            >
+              <div
+                class="md:min-h-44"
+              >
+                <div
+                  class="rounded-xl border bg-card text-card-foreground shadow"
+                >
+                  <div
+                    class="p-6 pt-6"
+                  >
+                    <div
+                      class="grid grid-cols-2 md:grid-cols-4 gap-4"
+                    >
+                      <div
+                        class="flex items-center justify-center p-4 bg-muted rounded-lg transition-none"
+                        style="opacity: 0; transform: translateY(20px);"
+                      >
+                        <span
+                          class="text-sm font-medium"
+                        >
+                          Vue
+                        </span>
+                      </div>
+                      <div
+                        class="flex items-center justify-center p-4 bg-muted rounded-lg transition-none"
+                        style="opacity: 0; transform: translateY(20px);"
+                      >
+                        <span
+                          class="text-sm font-medium"
+                        >
+                          NuxtJs
+                        </span>
+                      </div>
+                      <div
+                        class="flex items-center justify-center p-4 bg-muted rounded-lg transition-none"
+                        style="opacity: 0; transform: translateY(20px);"
+                      >
+                        <span
+                          class="text-sm font-medium"
+                        >
+                          React
+                        </span>
+                      </div>
+                      <div
+                        class="flex items-center justify-center p-4 bg-muted rounded-lg transition-none"
+                        style="opacity: 0; transform: translateY(20px);"
+                      >
+                        <span
+                          class="text-sm font-medium"
+                        >
+                          ReactNative
+                        </span>
+                      </div>
+                      <div
+                        class="flex items-center justify-center p-4 bg-muted rounded-lg transition-none"
+                        style="opacity: 0; transform: translateY(20px);"
+                      >
+                        <span
+                          class="text-sm font-medium"
+                        >
+                          NextJs
+                        </span>
+                      </div>
+                      <div
+                        class="flex items-center justify-center p-4 bg-muted rounded-lg transition-none"
+                        style="opacity: 0; transform: translateY(20px);"
+                      >
+                        <span
+                          class="text-sm font-medium"
+                        >
+                          Angular 2+
+                        </span>
+                      </div>
+                      <div
+                        class="flex items-center justify-center p-4 bg-muted rounded-lg transition-none"
+                        style="opacity: 0; transform: translateY(20px);"
+                      >
+                        <span
+                          class="text-sm font-medium"
+                        >
+                          Ionic
+                        </span>
+                      </div>
+                      <div
+                        class="flex items-center justify-center p-4 bg-muted rounded-lg transition-none"
+                        style="opacity: 0; transform: translateY(20px);"
+                      >
+                        <span
+                          class="text-sm font-medium"
+                        >
+                          TailwindCSS
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-labelledby="radix-:r0:-trigger-backend"
+              class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              data-orientation="horizontal"
+              data-state="inactive"
+              hidden=""
+              id="radix-:r0:-content-backend"
+              role="tabpanel"
+              tabindex="0"
+            />
+            <div
+              aria-labelledby="radix-:r0:-trigger-devOps"
+              class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              data-orientation="horizontal"
+              data-state="inactive"
+              hidden=""
+              id="radix-:r0:-content-devOps"
+              role="tabpanel"
+              tabindex="0"
+            />
+            <div
+              aria-labelledby="radix-:r0:-trigger-tools"
+              class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              data-orientation="horizontal"
+              data-state="inactive"
+              hidden=""
+              id="radix-:r0:-content-tools"
+              role="tabpanel"
+              tabindex="0"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="relative py-12"
+    >
+      <div
+        class="text-center mb-12 transition-none"
+        style="opacity: 0; transform: translateY(50px);"
+      >
+        <h2
+          class="highlighted-heading text-3xl font-bold mb-4"
+        >
+          Professional Experience
+        </h2>
+        <p
+          class="text-muted-foreground max-w-2xl mx-auto"
+        >
+          Experienced in on-site, hybrid, and remote collaborations, I consistently deliver high-quality, maintainable solutions
+        </p>
+      </div>
+      <div
+        class="vertical-timeline vertical-timeline--animate vertical-timeline--two-columns"
+      >
+        <div
+          class="vertical-timeline-element"
+          id=""
+        >
+          <span
+            class="vertical-timeline-element-icon bounce-in"
+          >
+            <svg
+              class="size-6"
+            >
+              <use
+                xlink:href="/icon-sprite.svg#github"
+              />
+            </svg>
+          </span>
+          <div
+            class="vertical-timeline-element-content bounce-in"
+          >
+            <div
+              class="vertical-timeline-element-content-arrow"
+            />
+            <h3
+              class="vertical-timeline-element-title font-bold text-xl"
+            >
+              Senior Fullstack Software Developer
+            </h3>
+            <h4
+              class="vertical-timeline-element-subtitle text-muted-foreground"
+            >
+              Freelance
+            </h4>
+            <h4
+              class="vertical-timeline-element-subtitle text-muted-foreground"
+            >
+              Lagos, NG
+               (
+              remote
+              )
+            </h4>
+            <p
+              class="text-muted-foreground"
+            >
+              Vue.js, VuePress, Web Extensions (WXT), Web Components, Next.js, Netlify, Stripe API
+            </p>
+            <span
+              class="vertical-timeline-element-date"
+            >
+              2024 – Present
+            </span>
+          </div>
+        </div>
+        <div
+          class="vertical-timeline-element"
+          id=""
+        >
+          <span
+            class="vertical-timeline-element-icon bounce-in"
+          >
+            <svg
+              class="size-6"
+            >
+              <use
+                xlink:href="/icon-sprite.svg#github"
+              />
+            </svg>
+          </span>
+          <div
+            class="vertical-timeline-element-content bounce-in"
+          >
+            <div
+              class="vertical-timeline-element-content-arrow"
+            />
+            <h3
+              class="vertical-timeline-element-title font-bold text-xl"
+            >
+              Senior Fullstack Software Developer
+            </h3>
+            <h4
+              class="vertical-timeline-element-subtitle text-muted-foreground"
+            >
+              Lew Innovation
+            </h4>
+            <h4
+              class="vertical-timeline-element-subtitle text-muted-foreground"
+            >
+              Australia
+               (
+              remote
+              )
+            </h4>
+            <p
+              class="text-muted-foreground"
+            >
+              Vue.js, Quasar, Node.js, TypeORM, TypeScript, ElasticSearch, AWS, Laravel, React, Next.js, React Native
+            </p>
+            <span
+              class="vertical-timeline-element-date"
+            >
+              2021 – 2024
+            </span>
+          </div>
+        </div>
+        <div
+          class="vertical-timeline-element"
+          id=""
+        >
+          <span
+            class="vertical-timeline-element-icon bounce-in"
+          >
+            <svg
+              class="size-6"
+            >
+              <use
+                xlink:href="/icon-sprite.svg#github"
+              />
+            </svg>
+          </span>
+          <div
+            class="vertical-timeline-element-content bounce-in"
+          >
+            <div
+              class="vertical-timeline-element-content-arrow"
+            />
+            <h3
+              class="vertical-timeline-element-title font-bold text-xl"
+            >
+              Senior Frontend Developer (Architect)
+            </h3>
+            <h4
+              class="vertical-timeline-element-subtitle text-muted-foreground"
+            >
+              ITCraftship (acquired by Nursa)
+            </h4>
+            <h4
+              class="vertical-timeline-element-subtitle text-muted-foreground"
+            >
+              Poland
+               (
+              remote
+              )
+            </h4>
+            <p
+              class="text-muted-foreground"
+            >
+              Ionic, Angular, Next.js, Prismic
+            </p>
+            <span
+              class="vertical-timeline-element-date"
+            >
+              2020 – 2022
+            </span>
+          </div>
+        </div>
+        <div
+          class="vertical-timeline-element"
+          id=""
+        >
+          <span
+            class="vertical-timeline-element-icon bounce-in"
+          >
+            <svg
+              class="size-6"
+            >
+              <use
+                xlink:href="/icon-sprite.svg#github"
+              />
+            </svg>
+          </span>
+          <div
+            class="vertical-timeline-element-content bounce-in"
+          >
+            <div
+              class="vertical-timeline-element-content-arrow"
+            />
+            <h3
+              class="vertical-timeline-element-title font-bold text-xl"
+            >
+              Software Developer
+            </h3>
+            <h4
+              class="vertical-timeline-element-subtitle text-muted-foreground"
+            >
+              Parkway Projects LTD
+            </h4>
+            <h4
+              class="vertical-timeline-element-subtitle text-muted-foreground"
+            >
+              Nigeria
+               (
+              hybrid
+              )
+            </h4>
+            <p
+              class="text-muted-foreground"
+            >
+              Vue.js, SCSS, JavaScript, HTML5
+            </p>
+            <span
+              class="vertical-timeline-element-date"
+            >
+              2019 – 2020
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-16"
+      id="projects"
+    >
+      <div
+        class="container px-4 mx-auto transition-none"
+        style="opacity: 0; transform: translateY(20px);"
+      >
+        <div
+          class="text-center"
+        >
+          <h2
+            class="highlighted-heading text-3xl font-bold mb-4"
+          >
+            Featured Projects
+          </h2>
+          <p
+            class="text-muted-foreground max-w-2xl mx-auto mb-8"
+          >
+            With extensive experience across diverse domains, programming languages, frameworks, and tools, I have successfully delivered numerous projects throughout my career as a full-stack software engineer. Below are a select few highlights from the many projects I have completed professionally.
+          </p>
+        </div>
+        <div>
+          <div
+            class="max-w-3xl mx-auto mb-8"
+            data-orientation="horizontal"
+            dir="ltr"
+          >
+            <div
+              aria-orientation="horizontal"
+              class="h-9 items-center justify-center rounded-lg bg-muted p-1 text-muted-foreground grid w-full grid-cols-3"
+              data-orientation="horizontal"
+              role="tablist"
+              style="outline: none;"
+              tabindex="0"
+            >
+              <button
+                aria-controls="projects-list"
+                aria-selected="true"
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow capitalize"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="active"
+                id="radix-:r5:-trigger-all"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                All Projects
+              </button>
+              <button
+                aria-controls="projects-list"
+                aria-selected="false"
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow capitalize"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-:r5:-trigger-live"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Has Demo
+              </button>
+              <button
+                aria-controls="projects-list"
+                aria-selected="false"
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow capitalize"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-:r5:-trigger-oss"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Open Source
+              </button>
+            </div>
+          </div>
+          <div
+            class="grid gap-6 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3"
+            id="projects-list"
+          >
+            <div
+              class="transition-none"
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <div
+                class="overflow-hidden border border-slate-300 rounded-lg h-full min-h-[300px] cursor-pointer transition-transform hover:scale-[1.02]"
+              >
+                <div
+                  class="flex flex-col h-full"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="relative w-full min-h-1 overflow-hidden bg-slate-100"
+                      style="background-color: rgb(240, 225, 235);"
+                    >
+                      <img
+                        alt="portfolio project"
+                        class="object-contain object-center"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="100vw"
+                        src="/_next/image?url=%2Fimages%2Fportfolio%2Fpayzone%2Flanding-light.webp&w=3840&q=75"
+                        srcset="/_next/image?url=%2Fimages%2Fportfolio%2Fpayzone%2Flanding-light.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fportfolio%2Fpayzone%2Flanding-light.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fportfolio%2Fpayzone%2Flanding-light.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fportfolio%2Fpayzone%2Flanding-light.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fportfolio%2Fpayzone%2Flanding-light.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fportfolio%2Fpayzone%2Flanding-light.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fportfolio%2Fpayzone%2Flanding-light.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fportfolio%2Fpayzone%2Flanding-light.webp&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="p-3"
+                  >
+                    <h3
+                      class="text-xl font-medium mb-3"
+                    >
+                      Payzone
+                    </h3>
+                    <p
+                      class="flex flex-wrap gap-2 mb-3"
+                    >
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Vuejs
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Vuex
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Webpack
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        SCSS
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        HTML5
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Service Worker
+                      </span>
+                    </p>
+                    <p
+                      class="max-sm:text-sm text-muted-foreground"
+                    >
+                      Payzone is a comprehensive bill aggregation and payment platform that enables merchants' customers to conveniently place orders, pay bills, and manage their own wallets
+                    </p>
+                  </div>
+                  <div
+                    class="mt-auto p-3"
+                  >
+                    <div
+                      class="flex gap-4"
+                    >
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://payzone.ng"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-external-link mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                          />
+                          <path
+                            d="M10 14 21 3"
+                          />
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                        </svg>
+                        Demo
+                      </a>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs ml-auto"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-none"
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <div
+                class="overflow-hidden border border-slate-300 rounded-lg h-full min-h-[300px] cursor-pointer transition-transform hover:scale-[1.02]"
+              >
+                <div
+                  class="flex flex-col h-full"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="relative w-full min-h-1 overflow-hidden bg-slate-100"
+                      style="background-color: rgb(13, 17, 22);"
+                    >
+                      <img
+                        alt="portfolio project"
+                        class="object-contain object-center"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="100vw"
+                        src="/_next/image?url=%2Fimages%2Fportfolio%2Fdeveloper-portfolio%2Fpreview1.webp&w=3840&q=75"
+                        srcset="/_next/image?url=%2Fimages%2Fportfolio%2Fdeveloper-portfolio%2Fpreview1.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fportfolio%2Fdeveloper-portfolio%2Fpreview1.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fportfolio%2Fdeveloper-portfolio%2Fpreview1.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fportfolio%2Fdeveloper-portfolio%2Fpreview1.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fportfolio%2Fdeveloper-portfolio%2Fpreview1.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fportfolio%2Fdeveloper-portfolio%2Fpreview1.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fportfolio%2Fdeveloper-portfolio%2Fpreview1.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fportfolio%2Fdeveloper-portfolio%2Fpreview1.webp&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="p-3"
+                  >
+                    <h3
+                      class="text-xl font-medium mb-3"
+                    >
+                      Developer portfolio
+                    </h3>
+                    <p
+                      class="flex flex-wrap gap-2 mb-3"
+                    >
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Typescript
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        React
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Nextjs
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Radix-ui
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Shadcn-ui
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        TailwindCSS
+                      </span>
+                    </p>
+                    <p
+                      class="max-sm:text-sm text-muted-foreground"
+                    >
+                      This portfolio website is a sleek and modern single-page application developed with Next.js, showcasing the developer's skills, projects, and professional achievements
+                    </p>
+                  </div>
+                  <div
+                    class="mt-auto p-3"
+                  >
+                    <div
+                      class="flex gap-4"
+                    >
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        https://github.com/boudrigamarwane/portfolio-website/tree/main/src"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-code-xml mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="m18 16 4-4-4-4"
+                          />
+                          <path
+                            d="m6 8-4 4 4 4"
+                          />
+                          <path
+                            d="m14.5 4-5 16"
+                          />
+                        </svg>
+                        Code
+                      </a>
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://emeke-ajeh.netlify.app/"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-external-link mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                          />
+                          <path
+                            d="M10 14 21 3"
+                          />
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                        </svg>
+                        Demo
+                      </a>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs ml-auto"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-none"
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <div
+                class="overflow-hidden border border-slate-300 rounded-lg h-full min-h-[300px] cursor-pointer transition-transform hover:scale-[1.02]"
+              >
+                <div
+                  class="flex flex-col h-full"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="relative w-full min-h-1 overflow-hidden bg-slate-100"
+                      style="background-color: rgb(13, 17, 22);"
+                    >
+                      <img
+                        alt="portfolio project"
+                        class="object-contain object-center"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="100vw"
+                        src="/_next/image?url=%2Fimages%2Fportfolio%2Fnursa%2Fpreview1.webp&w=3840&q=75"
+                        srcset="/_next/image?url=%2Fimages%2Fportfolio%2Fnursa%2Fpreview1.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fportfolio%2Fnursa%2Fpreview1.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fportfolio%2Fnursa%2Fpreview1.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fportfolio%2Fnursa%2Fpreview1.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fportfolio%2Fnursa%2Fpreview1.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fportfolio%2Fnursa%2Fpreview1.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fportfolio%2Fnursa%2Fpreview1.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fportfolio%2Fnursa%2Fpreview1.webp&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="p-3"
+                  >
+                    <h3
+                      class="text-xl font-medium mb-3"
+                    >
+                      Nursa
+                    </h3>
+                    <p
+                      class="flex flex-wrap gap-2 mb-3"
+                    >
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Angular
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Ionic
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Ngxs
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Typescript
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Nodejs
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Firebase
+                      </span>
+                    </p>
+                    <p
+                      class="max-sm:text-sm text-muted-foreground"
+                    >
+                      Nursa is a healthcare staffing platform that improves patient care by connecting nurses seeking flexible work with facilities in need of help
+                    </p>
+                  </div>
+                  <div
+                    class="mt-auto p-3"
+                  >
+                    <div
+                      class="flex gap-4"
+                    >
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://app.nursa.com/"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-external-link mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                          />
+                          <path
+                            d="M10 14 21 3"
+                          />
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                        </svg>
+                        Demo
+                      </a>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs ml-auto"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-none"
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <div
+                class="overflow-hidden border border-slate-300 rounded-lg h-full min-h-[300px] cursor-pointer transition-transform hover:scale-[1.02]"
+              >
+                <div
+                  class="flex flex-col h-full"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="relative w-full min-h-1 overflow-hidden bg-slate-100"
+                      style="background-color: rgb(13, 17, 22);"
+                    >
+                      <img
+                        alt="portfolio project"
+                        class="object-contain object-center"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="100vw"
+                        src="/_next/image?url=%2Fimages%2Fportfolio%2Fvuejs-dialog%2Fpreview.webp&w=3840&q=75"
+                        srcset="/_next/image?url=%2Fimages%2Fportfolio%2Fvuejs-dialog%2Fpreview.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fportfolio%2Fvuejs-dialog%2Fpreview.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fportfolio%2Fvuejs-dialog%2Fpreview.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fportfolio%2Fvuejs-dialog%2Fpreview.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fportfolio%2Fvuejs-dialog%2Fpreview.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fportfolio%2Fvuejs-dialog%2Fpreview.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fportfolio%2Fvuejs-dialog%2Fpreview.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fportfolio%2Fvuejs-dialog%2Fpreview.webp&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="p-3"
+                  >
+                    <h3
+                      class="text-xl font-medium mb-3"
+                    >
+                      Vuejs-Dialog Plugin
+                    </h3>
+                    <p
+                      class="flex flex-wrap gap-2 mb-3"
+                    >
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Vue
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        HTML5
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        SCSS
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        webpack
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Vite
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Open Source
+                      </span>
+                    </p>
+                    <p
+                      class="max-sm:text-sm text-muted-foreground"
+                    >
+                      Vuejs-dialog is a vue plugin that's designed to serve as a replacement to the native confirm and alert that ships with the browser. It is lightweight and comes with a simple API
+                    </p>
+                  </div>
+                  <div
+                    class="mt-auto p-3"
+                  >
+                    <div
+                      class="flex gap-4"
+                    >
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        https://github.com/boudrigamarwane/vuejs-dialog"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-code-xml mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="m18 16 4-4-4-4"
+                          />
+                          <path
+                            d="m6 8-4 4 4 4"
+                          />
+                          <path
+                            d="m14.5 4-5 16"
+                          />
+                        </svg>
+                        Code
+                      </a>
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://godofbrowser.github.io/vuejs-dialog/features.html"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-external-link mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                          />
+                          <path
+                            d="M10 14 21 3"
+                          />
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                        </svg>
+                        Demo
+                      </a>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs ml-auto"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-none"
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <div
+                class="overflow-hidden border border-slate-300 rounded-lg h-full min-h-[300px] cursor-pointer transition-transform hover:scale-[1.02]"
+              >
+                <div
+                  class="flex flex-col h-full"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="relative w-full min-h-1 overflow-hidden bg-slate-100"
+                      style="background-color: rgb(238, 239, 248);"
+                    >
+                      <img
+                        alt="portfolio project"
+                        class="object-contain object-center"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="100vw"
+                        src="/_next/image?url=%2Fimages%2Fportfolio%2Fkittiefight%2Fkittiefight-connected.webp&w=3840&q=75"
+                        srcset="/_next/image?url=%2Fimages%2Fportfolio%2Fkittiefight%2Fkittiefight-connected.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fportfolio%2Fkittiefight%2Fkittiefight-connected.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fportfolio%2Fkittiefight%2Fkittiefight-connected.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fportfolio%2Fkittiefight%2Fkittiefight-connected.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fportfolio%2Fkittiefight%2Fkittiefight-connected.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fportfolio%2Fkittiefight%2Fkittiefight-connected.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fportfolio%2Fkittiefight%2Fkittiefight-connected.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fportfolio%2Fkittiefight%2Fkittiefight-connected.webp&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="p-3"
+                  >
+                    <h3
+                      class="text-xl font-medium mb-3"
+                    >
+                      KittieFight
+                    </h3>
+                    <p
+                      class="flex flex-wrap gap-2 mb-3"
+                    >
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Web3
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        React
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Truffle
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Ganache
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Solidity
+                      </span>
+                    </p>
+                    <p
+                      class="max-sm:text-sm text-muted-foreground"
+                    >
+                      KittieFight was a gamified mortal kombat for cryptokitties, which is a crowd-driven real-time Dapp fighting game on the Ethereum blockchain
+                    </p>
+                  </div>
+                  <div
+                    class="mt-auto p-3"
+                  >
+                    <div
+                      class="flex gap-4"
+                    >
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://github.com/kittiefight"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-code-xml mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="m18 16 4-4-4-4"
+                          />
+                          <path
+                            d="m6 8-4 4 4 4"
+                          />
+                          <path
+                            d="m14.5 4-5 16"
+                          />
+                        </svg>
+                        Code
+                      </a>
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://www.youtube.com/watch?v=TDXOJYbFRiw"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-external-link mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                          />
+                          <path
+                            d="M10 14 21 3"
+                          />
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                        </svg>
+                        Reference
+                      </a>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs ml-auto"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-none"
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <div
+                class="overflow-hidden border border-slate-300 rounded-lg h-full min-h-[300px] cursor-pointer transition-transform hover:scale-[1.02]"
+              >
+                <div
+                  class="flex flex-col h-full"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="relative w-full min-h-1 overflow-hidden bg-slate-100"
+                      style="background-color: rgb(99, 99, 99);"
+                    >
+                      <img
+                        alt="portfolio project"
+                        class="object-contain object-center"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="100vw"
+                        src="/_next/image?url=%2Fimages%2Fportfolio%2Fokadabooks%2Fokadabooks-store.webp&w=3840&q=75"
+                        srcset="/_next/image?url=%2Fimages%2Fportfolio%2Fokadabooks%2Fokadabooks-store.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fportfolio%2Fokadabooks%2Fokadabooks-store.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fportfolio%2Fokadabooks%2Fokadabooks-store.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fportfolio%2Fokadabooks%2Fokadabooks-store.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fportfolio%2Fokadabooks%2Fokadabooks-store.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fportfolio%2Fokadabooks%2Fokadabooks-store.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fportfolio%2Fokadabooks%2Fokadabooks-store.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fportfolio%2Fokadabooks%2Fokadabooks-store.webp&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="p-3"
+                  >
+                    <h3
+                      class="text-xl font-medium mb-3"
+                    >
+                      Okadabooks
+                    </h3>
+                    <p
+                      class="flex flex-wrap gap-2 mb-3"
+                    >
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        React
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Nextjs
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Redux
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Nodejs
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Laravel
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Nginx
+                      </span>
+                    </p>
+                    <p
+                      class="max-sm:text-sm text-muted-foreground"
+                    >
+                      OkadaBooks was a self-publishing and bookselling platform offering a virtual bookshelf with thousands of books across genres, from romance to thrillers.
+                    </p>
+                  </div>
+                  <div
+                    class="mt-auto p-3"
+                  >
+                    <div
+                      class="flex gap-4"
+                    >
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://en.wikipedia.org/wiki/OkadaBooks"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-external-link mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                          />
+                          <path
+                            d="M10 14 21 3"
+                          />
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                        </svg>
+                        Reference
+                      </a>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs ml-auto"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-none"
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <div
+                class="overflow-hidden border border-slate-300 rounded-lg h-full min-h-[300px] cursor-pointer transition-transform hover:scale-[1.02]"
+              >
+                <div
+                  class="flex flex-col h-full"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="relative w-full min-h-1 overflow-hidden bg-slate-100"
+                      style="background-color: rgb(13, 17, 22);"
+                    >
+                      <img
+                        alt="portfolio project"
+                        class="object-contain object-center"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="100vw"
+                        src="/_next/image?url=%2Fimages%2Fportfolio%2Fgivvable%2Fpreview1.webp&w=3840&q=75"
+                        srcset="/_next/image?url=%2Fimages%2Fportfolio%2Fgivvable%2Fpreview1.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fportfolio%2Fgivvable%2Fpreview1.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fportfolio%2Fgivvable%2Fpreview1.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fportfolio%2Fgivvable%2Fpreview1.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fportfolio%2Fgivvable%2Fpreview1.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fportfolio%2Fgivvable%2Fpreview1.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fportfolio%2Fgivvable%2Fpreview1.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fportfolio%2Fgivvable%2Fpreview1.webp&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="p-3"
+                  >
+                    <h3
+                      class="text-xl font-medium mb-3"
+                    >
+                      Givvable
+                    </h3>
+                    <p
+                      class="flex flex-wrap gap-2 mb-3"
+                    >
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Vuejs
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Nuxtjs
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Quasar
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Elastic search
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Nodejs
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Typeorm
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Terraform
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Objection
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Typescript
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        AWS S3
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Azure B2C
+                      </span>
+                    </p>
+                    <p
+                      class="max-sm:text-sm text-muted-foreground"
+                    >
+                      Givvable is a platform specializing in automating supplier diligence and sustainable procurement, designed to streamline processes for corporate and government buyers and suppliers
+                    </p>
+                  </div>
+                  <div
+                    class="mt-auto p-3"
+                  >
+                    <div
+                      class="flex gap-4"
+                    >
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://app.givvable.com/"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-external-link mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                          />
+                          <path
+                            d="M10 14 21 3"
+                          />
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                        </svg>
+                        Demo
+                      </a>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs ml-auto"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-none"
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <div
+                class="overflow-hidden border border-slate-300 rounded-lg h-full min-h-[300px] cursor-pointer transition-transform hover:scale-[1.02]"
+              >
+                <div
+                  class="flex flex-col h-full"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="relative w-full min-h-1 overflow-hidden bg-slate-100"
+                      style="background-color: rgb(13, 17, 22);"
+                    >
+                      <img
+                        alt="portfolio project"
+                        class="object-contain object-center"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="100vw"
+                        src="/_next/image?url=%2Fimages%2Fportfolio%2Flaravel-restricted%2Fpreview1.webp&w=3840&q=75"
+                        srcset="/_next/image?url=%2Fimages%2Fportfolio%2Flaravel-restricted%2Fpreview1.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fportfolio%2Flaravel-restricted%2Fpreview1.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fportfolio%2Flaravel-restricted%2Fpreview1.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fportfolio%2Flaravel-restricted%2Fpreview1.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fportfolio%2Flaravel-restricted%2Fpreview1.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fportfolio%2Flaravel-restricted%2Fpreview1.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fportfolio%2Flaravel-restricted%2Fpreview1.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fportfolio%2Flaravel-restricted%2Fpreview1.webp&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="p-3"
+                  >
+                    <h3
+                      class="text-xl font-medium mb-3"
+                    >
+                      Laravel-Restricted
+                    </h3>
+                    <p
+                      class="flex flex-wrap gap-2 mb-3"
+                    >
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        PHP
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Laravel
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Composer
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Open Source
+                      </span>
+                    </p>
+                    <p
+                      class="max-sm:text-sm text-muted-foreground"
+                    >
+                      Restricted is a Laravel package that prevents users from signing up with reserved words, enhancing application security and routing integrity
+                    </p>
+                  </div>
+                  <div
+                    class="mt-auto p-3"
+                  >
+                    <div
+                      class="flex gap-4"
+                    >
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://github.com/Codulab/laravel-restricted/tree/master/src"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-code-xml mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="m18 16 4-4-4-4"
+                          />
+                          <path
+                            d="m6 8-4 4 4 4"
+                          />
+                          <path
+                            d="m14.5 4-5 16"
+                          />
+                        </svg>
+                        Code
+                      </a>
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://github.com/Codulab/laravel-restricted/commits?author=Godofbrowser"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-external-link mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                          />
+                          <path
+                            d="M10 14 21 3"
+                          />
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                        </svg>
+                        Reference
+                      </a>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs ml-auto"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="transition-none"
+              style="opacity: 0; transform: translateY(20px);"
+            >
+              <div
+                class="overflow-hidden border border-slate-300 rounded-lg h-full min-h-[300px] cursor-pointer transition-transform hover:scale-[1.02]"
+              >
+                <div
+                  class="flex flex-col h-full"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="relative w-full min-h-1 overflow-hidden bg-slate-100"
+                      style="background-color: rgb(234, 88, 33);"
+                    >
+                      <img
+                        alt="portfolio project"
+                        class="object-contain object-center"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="100vw"
+                        src="/_next/image?url=%2Fimages%2Fportfolio%2Fkinderling%2Fpreview1.webp&w=3840&q=75"
+                        srcset="/_next/image?url=%2Fimages%2Fportfolio%2Fkinderling%2Fpreview1.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fportfolio%2Fkinderling%2Fpreview1.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fportfolio%2Fkinderling%2Fpreview1.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fportfolio%2Fkinderling%2Fpreview1.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fportfolio%2Fkinderling%2Fpreview1.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fportfolio%2Fkinderling%2Fpreview1.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fportfolio%2Fkinderling%2Fpreview1.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fportfolio%2Fkinderling%2Fpreview1.webp&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="p-3"
+                  >
+                    <h3
+                      class="text-xl font-medium mb-3"
+                    >
+                      Kinderling
+                    </h3>
+                    <p
+                      class="flex flex-wrap gap-2 mb-3"
+                    >
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        React
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        ReactNative
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        mobx
+                      </span>
+                      <span
+                        class="px-2 py-1 bg-muted rounded-full text-xs"
+                      >
+                        Typescript
+                      </span>
+                    </p>
+                    <p
+                      class="max-sm:text-sm text-muted-foreground"
+                    >
+                      Kinderling is a platform that enables families to enjoy every exclusive episode of their favourite Kinderling podcast
+                    </p>
+                  </div>
+                  <div
+                    class="mt-auto p-3"
+                  >
+                    <div
+                      class="flex gap-4"
+                    >
+                      <a
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs"
+                        href="https://www.kinderlingkids.com/"
+                        target="_blank"
+                      >
+                        <svg
+                          class="lucide lucide-external-link mr-2 h-4 w-4"
+                          fill="none"
+                          height="24"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 3h6v6"
+                          />
+                          <path
+                            d="M10 14 21 3"
+                          />
+                          <path
+                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                          />
+                        </svg>
+                        Reference
+                      </a>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-8 rounded-md px-3 text-xs ml-auto"
+                      >
+                        See more
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;

@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders layout unchanged 1`] = `
+<div>
+  <html
+    lang="en"
+  >
+    <body
+      class="className transition-colors duration-300"
+    >
+      <script
+        nonce=""
+      >
+        ((e,s,n,m,o,l,u,h)=&gt;{let c=document.documentElement,T=["light","dark"];function p(d){(Array.isArray(e)?e:[e]).forEach(g=&gt;{let k=g==="class",S=k&&l?o.map(f=&gt;l[f]||f):o;k?(c.classList.remove(...S),c.classList.add(d)):c.setAttribute(g,d)}),C(d)}function C(d){h&&T.includes(d)&&(c.style.colorScheme=d)}function a(){return window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(m)p(m);else try{let d=localStorage.getItem(s)||n,g=u&&d==="system"?a():d;p(g)}catch(d){}})("class","theme","system",null,["light","dark"],null,true,true)
+      </script>
+      <header
+        class="fixed top-0 left-0 w-full z-[1000] bg-background dark:bg-background shadow-[0px_6px_10px_-5px_rgba(0,0,0,0.3)]"
+        data-testid="page-header"
+      >
+        <div
+          class="h-16 flex items-center xl:container xl:mx-auto xl:px-6 px-4"
+        >
+          <h1
+            class="text-xl font-semibold"
+          >
+            Portfolio
+          </h1>
+          <button
+            aria-label="Theme mode toggle"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:shrink-0 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground h-9 w-9 ml-auto [&_svg]:size-6 [&_svg]:transition-transform [&_svg]:duration-100"
+          >
+            <svg
+              class="size-6 scale-100 rotate-0 dark:scale-0 dark:-rotate-90"
+            >
+              <use
+                xlink:href="/icon-sprite.svg#moon"
+              />
+            </svg>
+            <svg
+              class="size-6 absolute scale-0 rotate-90 dark:rotate-0 dark:scale-100"
+            >
+              <use
+                xlink:href="/icon-sprite.svg#sun"
+              />
+            </svg>
+            <span
+              class="sr-only"
+            >
+              Toggle theme
+            </span>
+          </button>
+        </div>
+      </header>
+      <main />
+      <footer
+        class=""
+        data-testid="page-footer"
+      >
+        <div
+          class="container px-4 mx-auto p-3 py-16 relative before:top-0 before:left-[15px] before:absolute before:w-[calc(100%-30px)] before:h-px before:bg-slate-300"
+        >
+          <div
+            class="flex flex-col lg:flex-row-reverse justify-between"
+          >
+            <ul
+              class="flex justify-center max-lg:mb-8"
+            >
+              <li
+                class="ml-2 first:ml-0"
+              >
+                <a
+                  class="highlighted-text"
+                  href="https://medium.com/@ejjay"
+                  target="_blank"
+                >
+                  Articles
+                </a>
+              </li>
+              <li
+                class="ml-2 first:ml-0"
+              >
+                <a
+                  class="highlighted-text"
+                  href="https://docs.google.com/document/d/e/2PACX-1vRBaSJImuHYeHooFXol99o1oZa43QEuKFvJtqs8FofyIcpTnXnAYGt0cQQ5xkdwlA/pub"
+                  target="_blank"
+                >
+                  Resume
+                </a>
+              </li>
+              <li
+                class="ml-2 first:ml-0"
+              >
+                <a
+                  class="highlighted-text"
+                  href="https://www.upwork.com/freelancers/~01e4ba9941a5659bb3"
+                  target="_blank"
+                >
+                  Hire me
+                </a>
+              </li>
+            </ul>
+            <p
+              class="max-lg:text-center leading-loose"
+            >
+              Copyright © 
+              2024
+              <span>
+                 - 
+              </span>
+              <a
+                https://github.com/boudrigamarwane"
+              >
+                <span
+                  class="highlighted-text"
+                >
+                  godofbrowser
+                </span>
+              </a>
+               
+              <span
+                class="max-sm:hidden"
+              >
+                |
+              </span>
+               
+              <span
+                class="whitespace-nowrap max-sm:block"
+              >
+                Don't hesitate to reach out.
+              </span>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
+</div>
+`;

@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+https://colorhunt.co/palette/0c0c0c481e149b3922f2613f
+*/
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0, 0%, 5%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 11, 87%, 60%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem
+  }
+  .dark {
+    --background: 0, 0%, 5%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 11, 87%, 60%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    scroll-behavior: smooth !important;
+  }
+}
+
+@layer components {
+  .highlighted-text {
+    @apply inline-block before:[content:'['] after:[content:']'] before:text-accent after:text-accent before:text-[1.1em] after:text-[1.1em] before:align-bottom;
+  }
+
+  .highlighted-heading {
+    @apply inline-block relative mb-8 before:absolute before:[content:'_'] before:bg-accent before:inline-block before:h-1 before:w-2/3 before:-bottom-3 before:left-1/2 before:-translate-x-1/2;
+  }
+  .highlighted-heading:before {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, transparent, hsl(var(--accent)) 50%, transparent);
+  }
+
+  .glowing-border {
+    position: relative;
+  }
+  .glowing-border:before {
+    @apply rounded-2xl;
+    --size: 4px;
+    --angle: 120deg;
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + var(--size) + var(--size));
+    height: calc(100% + var(--size) + var(--size));
+    background-color: transparent;
+    z-index: -1;
+    transform: translate(calc(-1 * var(--size)), calc(-1 * var(--size)));
+    background-image: conic-gradient(from var(--angle), #f7ff0a50, hsl(var(--accent)), #f7ff0a50);
+  }
+
+  /* Flowing conic-gradient ring for circular avatars */
+  .flowing-avatar {
+    position: relative;
+  }
+  .flowing-avatar:before {
+    --ring-size: 8px;
+    --ring-blur: 12px;
+    --ring-radius: 9999px;
+    content: '';
+    position: absolute;
+    inset: calc(-1 * var(--ring-size));
+    border-radius: var(--ring-radius);
+    background: conic-gradient(from var(--angle), hsl(var(--accent)) 0%, #f7ff0a50 25%, hsl(var(--accent)) 50%, #f7ff0a50 75%, hsl(var(--accent)) 100%);
+    z-index: 0;
+  }
+  .flowing-avatar:after {
+    content: '';
+    position: absolute;
+    inset: calc(-1 * var(--ring-size));
+    border-radius: 9999px;
+    background: inherit;
+    filter: blur(var(--ring-blur));
+    z-index: -1;
+  }
+  .flowing-avatar > div {
+    position: relative;
+    z-index: 1;
+  }
+  .flowing-avatar--animated:before,
+  .flowing-avatar--animated:after {
+    animation: rotate-border 6s linear infinite;
+  }
+
+  .glowing-border:after {
+    filter: blur(1rem);
+    opacity: 0.8;
+  }
+
+  .glowing-border--animated:before {
+    animation: rotate-border 2s linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+
+  .animated-scroll-down {
+    animation: animated-scroll-down 1.5s ease-out;
+    animation-iteration-count: infinite;
+  }
+
+  /* These styles are needed initially for smoother animation.
+   After which the class is removed at the end of the animation */
+  .helper--hero-text-gsap {
+    position: relative;
+
+    &:before {
+      position: relative;
+      top: 0rem;
+      left: 0rem;
+    }
+    &:after {
+      position: relative;
+      top: 0rem;
+      right: 0rem;
+    }
+
+    > * {
+      white-space: nowrap;
+      display: inline-block;
+    }
+  }
+}
+
+/**
+ * This package is difficult to customize using tailwind, perhaps I should make a PR for the following:
+ * - More use of css variables to allow for easy theming
+ * - Somehow the class is-hidden remains and hides content, forcing me to use visible={true} prop
+ */
+.vertical-timeline-element-content {
+  /*@apply bg-muted;*/ /* see? doesn't work */
+  background: hsl(var(--muted)) !important;
+}
+.vertical-timeline-element-content-arrow {
+  border-right-color: hsl(var(--muted)) !important;
+}
+
+.vertical-timeline::before {
+  --line-color: hsl(var(--accent)) !important;
+}
+
+.vertical-timeline-element-icon svg {
+  width: 2rem !important;
+  height: 2rem !important;
+  margin: 0 !important;
+  transform: translate3D(-50%, -50%, 0);
+}
+.vertical-timeline-element-icon {
+  background: hsl(var(--accent-foreground)) !important;
+  color: hsl(var(--accent)) !important;
+  box-shadow: 0 0 0 4px hsl(var(--accent)),inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05) !important;
+}
+
+@property --size {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes rotate-border {
+  0% {
+    --angle: 0deg;
+  }
+  100% {
+    --angle: 360deg;
+  }
+}
+
+@keyframes animated-scroll-down {
+  0% {
+    transform: translateY(10px) rotate(225deg);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(225deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(10px) rotate(225deg);
+    opacity: 0;
+  }
+}
